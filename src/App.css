@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f5f5f585; /* Light gray background */
+  color: #333; /* Dark gray for text */
+}
+
+.App {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #68aa6ea0; /* White container */
+  color: #000; /* Black text for content */
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+header img {
+  max-width: 100%;
+  border-radius: 10px;
+  border: 2px solid #ccc; /* Light gray border */
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #000; /* Black heading */
+  margin: 15px 0 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #666; /* Medium gray for description */
+}
+
+input {
+  padding: 15px;
+  width: 85%;
+  margin-bottom: 15px;
+  border: 1px solid #333030; /* Light gray border */
+  background-color: #ffffff; /* White input background */
+  color: #000; /* Black text inside input */
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  background-color: #333; /* Dark gray button */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #000; /* Black background on hover */
+  color: #fff; /* White text on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+footer {
+  margin-top: 20px;
+  color: #666; /* Medium gray for footer text */
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #000; /* Black for links */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #333; /* Dark gray text on hover */
+}
